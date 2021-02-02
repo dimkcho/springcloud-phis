@@ -1,9 +1,9 @@
 spring:
   rabbitmq:
-    host: prod.itdev.co.kr
+    host: order.itdev.co.kr
     port: 5672
     username: prodUser
     password: prodPassword
     virtual-host: vhost03
 custom:
-  message: Hello, phis-prod!
+  message: Hello, order-service-prod!

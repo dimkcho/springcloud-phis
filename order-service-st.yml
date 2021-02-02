@@ -1,6 +1,6 @@
 spring:
   rabbitmq:
-    host: st.itdev.co.kr
+    host: order.itdev.co.kr
     port: 5672
     username: stUser
     password: stPassword
@@ -8,4 +8,4 @@ spring:
 server:
   port: 9999
 custom:
-  message: Hello, phis-st!
+  message: Hello, order-service-st!

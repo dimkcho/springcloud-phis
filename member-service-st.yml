@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: member.itdev.co.kr
+    port: 5672
+    username: stUser
+    password: stPassword
+    virtual-host: vhost02
+server:
+  port: 9999
+custom:
+  message: Hello, member-service-st!
