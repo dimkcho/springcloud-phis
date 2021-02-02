@@ -1,11 +1,11 @@
 spring:
   rabbitmq:
     host: order.itdev.co.kr
-    port: 5672
+    port: 5673
     username: devUser
     password: devPassword
     virtual-host: vhost01
 server:
-  port: 9998
+  port: 8082
 custom:
   message: Hello, order-service-dev!
